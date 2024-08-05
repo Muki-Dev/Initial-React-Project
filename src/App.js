@@ -17,13 +17,13 @@ class App extends Component{
   }
 
   render(){
-      if(this.state.route === 'page1'){
-       return <Page1  onRouteChange={this.onRouteChange} />
-     }else if(this.state.route === 'page2'){
-      return <Page2  onRouteChange={this.onRouteChange} />
-    }else if(this.state.route === 'page3'){
-      return <Page3  onRouteChange={this.onRouteChange} /> 
-    }
+    //   if(this.state.route === 'page1'){
+    //    return <Page1  onRouteChange={this.onRouteChange} />
+    //  }else if(this.state.route === 'page2'){
+    //   return <Page2  onRouteChange={this.onRouteChange} />
+    // }else if(this.state.route === 'page3'){
+    //   return <Page3  onRouteChange={this.onRouteChange} /> 
+    // }
   }
 }
 
